@@ -1,4 +1,4 @@
-using Lab10;
+using EjercicioHerencia;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
