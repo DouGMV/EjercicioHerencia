@@ -1,0 +1,25 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+@code
+{
+    private void Funcion()
+    {
+        //Instanciar objetos de la clase Padre
+        Padre padre = new Padre();
+        //Instanciar objetos de la clase HijaA
+        HijaA hijaA = new HijaA();
+
+        padre.Id = 1;
+        padre.Cadena = "ABC";
+
+        hijaA.Id = 0;
+        hijaA.Cadena = "Texto";
+        hijaA.otraCadena = "Otro texto";
+    }
+}
